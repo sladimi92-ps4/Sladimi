@@ -6,6 +6,16 @@ body {
     
 }
 
+/* Custom PS4 background */
+#initial-screen,
+#exploit-main-screen {
+    background-image: url("../assets/ps4-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .mainContainer {
     height: 100vh;
     /* Ensure main container takes full viewport height */
