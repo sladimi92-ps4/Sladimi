@@ -28,6 +28,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: WebKitty
-          path: ${{ github.workspace }}
+          path: ${{ .github.workspace }}
           if-no-files-found: error
           compression-level: 9
