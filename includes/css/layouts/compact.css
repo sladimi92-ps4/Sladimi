@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
-    
+    background: #050805 url("../../assets/backgrounds/ps4-green-background.png") center center / cover no-repeat fixed;
 }
 
 .mainContainer {
